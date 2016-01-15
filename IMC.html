@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="IMC.css" />
+    <script type="text/javascript" src="IMC.js"></script>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <title>Calculez Votre IMC !</title>
+    <meta charset="utf-8">
+    <link href="img/logo.png" rel="icon">
+
+</head>
+<body>
+  <div class="container-fluid">
+    <h1>Calcul Ton IMC !</h1>
+  </div>
+    <div class="container-fluid cont">
+      <form NAME="poids">
+        <p class="text">POIDS (kg) :</p>
+        <INPUT TYPE="number" NAME="input" VALUE=""><br>
+<!-- <button onclick="controleP()">click</button> -->
+      </form>
+      <form NAME="taille">
+        <p class="text">TAILLE (cm) :</p>
+        <INPUT TYPE="number" NAME="input" VALUE=""><br>
+<!-- <button onclick="controleT()">click</button> -->
+      </form>
+      <form class="resultat">
+        <p>Ton IMC est : <p id="IMC"></p></p>
+        <p id="alert"><p>
+      </form>
+        <button onclick="IMC()">Calcule Ton IMC !</button>
+    </div>
+</body>
+</html>
